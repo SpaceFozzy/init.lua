@@ -30,7 +30,7 @@ return require('packer').startup(function(use)
 
   use 'psliwka/vim-smoothie'
 
-  use 'vim-scripts/indentLine.vim'
+  use "lukas-reineke/indent-blankline.nvim"
 
   use 'github/copilot.vim'
 
