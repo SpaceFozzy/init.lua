@@ -12,7 +12,7 @@ lsp.set_sign_icons({
 })
 
 lsp.ensure_installed({
-  'tsserver',
+  'ts_ls',
   'eslint',
   'pyright',
 })
