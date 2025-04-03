@@ -28,6 +28,10 @@ cmp.setup({
   mapping = {
     ['<Tab>'] = cmp_action.luasnip_supertab(),
     ['<S-Tab>'] = cmp_action.luasnip_shift_supertab(),
+  },
+  sources = {
+    { name = 'buffer' },
+    { name = 'nvim_lsp' },
   }
 })
 
